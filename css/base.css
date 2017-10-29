@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding-top: 0;
+	list-style: none;
+	text-decoration: none;
+}
+#top{
+	width:1200px;
+	margin:0 auto;
+}
+#top img{
+	float:left;
+}
+#top span{
+	font-size: 12px;
+	color: #000;
+}
+#top span:nth-of-type(1){
+	margin-left:80px;
+}
+#top form{
+	height:38px;
+	margin-top:40px;
+}
+	
+#top input[type=button]{
+	background:url(../images/search.png);
+	width:45px;
+	height:38px;
+	border:none;
+	float:left;
+}
+#top input[type=text]{
+	border-radius:25px 0 0 25px;
+	float:left;
+	height:35px;
+	border:none;
+	border:1px solid #eee;
+	margin-left:100px;
+}
+#top ul li{
+	float: left;
+	margin-left:68px;
+	margin-top:74px;;
+}
+#top ul li:hover{
+	border-bottom:2px solid #C00;
+}
+#top ul li a{
+	color:#000;
+}
+#banner{
+	position: relative;
+}
+#banner img{
+	display:block;
+	width: 100%;
+}
+#banner ul{
+	width:400px;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-200px;
+}
+#banner ul li{
+	float:left;
+	width:50px;
+	height: 6px;
+	background: #ccc;
+	margin:10px;
+}
+#banner .yes{
+	background:#ff0000;
+}
+
+
+#fotter{
+	background:#ccc;
+	overflow:hidden;
+}
+#fotter img{
+	float:left;
+	margin-left:100px;
+	margin-top:14px;
+	margin-right: 10px;
+}
+#fotter ul{
+	font-size:12px;
+
+}
+#fotter ul li{
+	display: inline-block;
+	margin-top:20px;
+	padding:0 14px;
+	border-right: 1px solid #000;
+	font-size:14px;
+}
+#fotter ul li:last-of-type{
+	border:none;
+}
+#fotter p{
+	margin:16px;
+	font-size:12px;
+}

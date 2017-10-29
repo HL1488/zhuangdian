@@ -1,0 +1,129 @@
+
+#content{
+	width:1200px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-bottom:50px;
+}
+.title{
+	width:100%;
+	height:120px;
+	position:relative;
+}
+.title .linner{
+	width:100%;
+	height:2px;
+	background:#ccc;
+	position:absolute;
+	top:50%;
+}
+div[class^=a]{
+	width:160px;
+	text-align: center;
+	position:absolute;
+	left:50%;
+	margin-left:-80px;
+	top:50%;
+	margin-top:-30px;
+}
+.a1{
+	background:#fff3f3;
+}
+#content .content1{
+	background:#fff3f3;
+	padding-bottom: 50px;
+}
+#content .content1 p{
+	font-size:13px;
+	text-indent: 2em;
+	line-height: 30px;
+	width:1200px;
+	margin:0 auto;
+	
+}
+#content .content2{
+	width:100%;
+	height:620px;
+	background:#ececec;
+	padding-bottom:50px;
+	overflow:hidden;
+	position:relative;
+}
+#content .content2 .a2{
+	background:#ececec;
+}
+#content .content2 ul{
+	color:#878ca0;
+	width:3200px;
+	height:502px;
+	margin: 0 auto;
+	text-align:center;
+	position:absolute;
+	transition:0.5s;
+}
+#content .content2 .left img,#content .content2 .right img{
+	margin-top:120px;
+}
+#content .content2 .left{
+	height:502px;
+	position:absolute;
+	left:0;
+	top:120px;
+	background:#ececec;
+}
+#content .content2 .left:hover{
+	background:#F60;
+}
+#content .content2 .right{
+	height:502px;
+	position:absolute;
+	right: 0;
+	top:120px;
+	background:#ececec;
+}
+#content .content2 .right:hover{
+	background:#F60;
+}
+#content .content2 ul li{
+	width:300px;
+	height:500px;
+	float:left;
+	margin:0 16px;
+	border: 1px solid #000;
+	font-size:13px;
+	
+}
+#content .content2 ul li img{
+	width:300px;
+	height:400px;	
+}
+#content .content2 ul li p{
+	width:150px;
+	margin:0 auto;
+	line-height:22px;
+}
+#content .content2 ul li span{
+	text-decoration: line-through;
+	color:#000;
+}
+#content .content2 ul li p:nth-of-type(2){
+	color:red;
+}
+#content .content3{
+	background:#fff3f3;
+	padding-bottom: 50px;
+}
+#content .content3 .a3{
+	background:#fff3f3;
+}
+#content .content3 p{
+	width:1200px;
+	margin:0 auto;
+	font-size:13px;
+	text-indent: 2em;
+	line-height:36px;
+}
+#content .content3 img{
+	float:left;
+	margin:0 20px;
+}
